@@ -30,7 +30,7 @@ export default function Home({ pokemon }) {
   return (
     <Layout title={'Home'}>
       <section id="deck" className={classes.deckContainer}>
-        <h2>{name ?? 'Deck'}</h2>
+        <h2>{name ?? 'Olivia\'s Deck'}</h2>
         {/* It would be cool to have some actions here... */}
         <div className={classes.actions}>
           <RandomizeAction onClick={randomizeDeck(pokemon)} />
